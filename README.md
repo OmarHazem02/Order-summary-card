@@ -16,9 +16,10 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+
+This project focused on building a simple but functional webpage using HTML and CSS. The goal was to practice and apply key web development skills including styling elements, positioning content, and improving user interaction. I learned how to set background images, style buttons, control paragraph layout, and apply visual effects like shadows and rounded corners. The project also introduced useful techniques for text formatting, link behavior, and responsive design principles. It served as a strong foundation for understanding how CSS and HTML work together to create visually engaging web content.
 
 ### The challenge
 
@@ -30,18 +31,10 @@ Users should be able to:
 
 ![](./webpage-screanshot.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL](https://omarhazem02.github.io/Order-summary-card/)
 
 ## My process
 
@@ -49,62 +42,132 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+🎨 CSS Styling Basics
+How to set a background image on the <body> using background-image.
 
-To see how you can add code snippets, see below:
+How to use background-size to control image scaling (cover, contain, etc.).
+
+How to use background-position to control the image placement (e.g., center, top left).
+
+How to add shadows using box-shadow for elements and text-shadow for text.
+
+How to control paragraph line spacing with line-height.
+
+🧱 Layout and Text Control
+How to break a line after a specific word using:
+
+<br> for manual line breaks
+
+span + display: block
+
+🔘 Application Button Styling
+
+CSS properties to style buttons:
+
+background-color, color, padding, border, border-radius, cursor, box-shadow, transition
+
+How to style hover and active button states with :hover and :active.
+
+💡 Extra Concepts Learned
+CSS shorthand properties (like border-radius: 20px 0 20px 0) to make some corner rounded and some not
+
+Pseudo-elements (like ::after)
+
+
+Some of the Code Snippets I Learned in This Project
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+
+<p>Hello<br>World</p>
+
 ```
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+body {
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+/* Element shadow */
+div {
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Text shadow */
+h1 {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+1. Responsive Design
+Learn how to make the layout and buttons adjust nicely on phones and tablets using:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+media queries
+
+relative units like %, em, vh, vw
+
+2. Advanced Button Effects
+Add animations on hover with @keyframes or transform.
+
+Create different button styles (like ghost buttons, icon buttons).
+
+3. Navigation Menus
+Build a navigation bar using <nav>, <ul>, and styled <a> links.
+
+Make it stick to the top of the page or become collapsible.
+
+4. Custom Fonts and Icons
+Learn to add Google Fonts.
+
+Use SVG icons or icon libraries like FontAwesome.
+
+5. Transitions and Animations
+Add smooth animations for shadows, scaling, or fading.
+
+Use transition, transform, or libraries like Animate.css.
+
+6. Form Styling and Functionality
+Create and style a basic form (e.g., contact or feedback).
+
+Learn form validation using HTML or JavaScript.
+
+7. JavaScript Interactivity
+Start using basic JavaScript to:
+
+Show/hide elements
+
+Toggle dark mode
+
+Add alerts or form handling
+
+8. Organizing Code Better
+Learn how to split CSS into sections or use SCSS (Sass).
+
+Explore CSS variables for colors and spacing.
+
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- MDN Web Docs helped me expand my knowledge on certain topics while creating this page..
+- Chat gpt and Claude supported me as  mentors by helping evaluate and review my code throughout the project.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Omar Hazem](https://www.linkedin.com/in/omar-hazem-aa287a273/)
+- Twitter - [@OmarHaz67778375]([https://www.twitter.com/yourusername](https://x.com/OmarHaz67778375))
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I would like to acknowledge AlMadersa, where I am currently studying in the Front-End Development Diploma program. Special thanks to my course tutor, Mohamed Abu Sarea (محمد أبو سريع), for his valuable guidance and support.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
