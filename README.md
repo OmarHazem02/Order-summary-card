@@ -164,7 +164,7 @@ Explore CSS variables for colors and spacing.
 ## Author
 
 - Website - [Omar Hazem](https://www.linkedin.com/in/omar-hazem-aa287a273/)
-- Twitter - [@OmarHaz67778375]([https://www.twitter.com/yourusername](https://x.com/OmarHaz67778375))
+- Twitter - [@Omarhaz67778375](https://x.com/OmarHaz67778375)
 
 
 ## Acknowledgments
